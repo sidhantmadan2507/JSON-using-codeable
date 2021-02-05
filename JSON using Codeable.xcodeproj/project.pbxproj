@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42B1E95525C67750000F16DD /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B1E95425C67750000F16DD /* Employee.swift */; };
 		42CB663A25C58FC900AF6F96 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB663925C58FC900AF6F96 /* AppDelegate.swift */; };
 		42CB663C25C58FC900AF6F96 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB663B25C58FC900AF6F96 /* SceneDelegate.swift */; };
 		42CB663E25C58FC900AF6F96 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB663D25C58FC900AF6F96 /* ViewController.swift */; };
 		42CB664125C58FC900AF6F96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB663F25C58FC900AF6F96 /* Main.storyboard */; };
 		42CB664325C58FD200AF6F96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42CB664225C58FD200AF6F96 /* Assets.xcassets */; };
 		42CB664625C58FD200AF6F96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42CB664425C58FD200AF6F96 /* LaunchScreen.storyboard */; };
+		42CB665025C5907600AF6F96 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CB664E25C5907600AF6F96 /* CustomTableViewCell.swift */; };
+		42CB665125C5907600AF6F96 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42CB664F25C5907600AF6F96 /* CustomTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		42B1E95425C67750000F16DD /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
 		42CB663625C58FC900AF6F96 /* JSON using Codeable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSON using Codeable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		42CB663925C58FC900AF6F96 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		42CB663B25C58FC900AF6F96 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		42CB664225C58FD200AF6F96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		42CB664525C58FD200AF6F96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		42CB664725C58FD200AF6F96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42CB664E25C5907600AF6F96 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		42CB664F25C5907600AF6F96 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				42CB664225C58FD200AF6F96 /* Assets.xcassets */,
 				42CB664425C58FD200AF6F96 /* LaunchScreen.storyboard */,
 				42CB664725C58FD200AF6F96 /* Info.plist */,
+				42CB664E25C5907600AF6F96 /* CustomTableViewCell.swift */,
+				42CB664F25C5907600AF6F96 /* CustomTableViewCell.xib */,
+				42B1E95425C67750000F16DD /* Employee.swift */,
 			);
 			path = "JSON using Codeable";
 			sourceTree = "<group>";
@@ -126,6 +135,7 @@
 			files = (
 				42CB664625C58FD200AF6F96 /* LaunchScreen.storyboard in Resources */,
 				42CB664325C58FD200AF6F96 /* Assets.xcassets in Resources */,
+				42CB665125C5907600AF6F96 /* CustomTableViewCell.xib in Resources */,
 				42CB664125C58FC900AF6F96 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,7 +149,9 @@
 			files = (
 				42CB663E25C58FC900AF6F96 /* ViewController.swift in Sources */,
 				42CB663A25C58FC900AF6F96 /* AppDelegate.swift in Sources */,
+				42CB665025C5907600AF6F96 /* CustomTableViewCell.swift in Sources */,
 				42CB663C25C58FC900AF6F96 /* SceneDelegate.swift in Sources */,
+				42B1E95525C67750000F16DD /* Employee.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
